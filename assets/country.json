@@ -1,0 +1,1238 @@
+[
+  {
+    "id": "twd",
+    "image": "https://flagsapi.com/TW/flat/64.png",
+    "name": "新台幣",
+    "symbol": "TWD"
+  },
+  {
+    "id": "usd",
+    "image": "https://flagsapi.com/US/flat/64.png",
+    "name": "美元",
+    "symbol": "USD"
+  },
+  {
+    "id": "aed",
+    "image": "https://flagsapi.com/AE/flat/64.png",
+    "name": "阿聯酋迪拉姆",
+    "symbol": "AED"
+  },
+  {
+    "id": "afn",
+    "image": "https://flagsapi.com/AF/flat/64.png",
+    "name": "阿富汗尼",
+    "symbol": "AFN"
+  },
+  {
+    "id": "all",
+    "image": "https://flagsapi.com/AL/flat/64.png",
+    "name": "阿爾巴尼亞列克",
+    "symbol": "ALL"
+  },
+  {
+    "id": "amd",
+    "image": "https://flagsapi.com/AM/flat/64.png",
+    "name": "亞美尼亞德拉姆",
+    "symbol": "AMD"
+  },
+  {
+    "id": "ang",
+    "image": "https://flagsapi.com/AN/flat/64.png",
+    "name": "荷屬安的列斯盾",
+    "symbol": "ANG"
+  },
+  {
+    "id": "aoa",
+    "image": "https://flagsapi.com/AO/flat/64.png",
+    "name": "安哥拉寬扎",
+    "symbol": "AOA"
+  },
+  {
+    "id": "ars",
+    "image": "https://flagsapi.com/AR/flat/64.png",
+    "name": "阿根廷比索",
+    "symbol": "ARS"
+  },
+  {
+    "id": "aud",
+    "image": "https://flagsapi.com/AU/flat/64.png",
+    "name": "澳大利亞元",
+    "symbol": "AUD"
+  },
+  {
+    "id": "awg",
+    "image": "https://flagsapi.com/AW/flat/64.png",
+    "name": "阿魯巴弗羅林",
+    "symbol": "AWG"
+  },
+  {
+    "id": "azn",
+    "image": "https://flagsapi.com/AZ/flat/64.png",
+    "name": "阿塞拜疆馬納特",
+    "symbol": "AZN"
+  },
+  {
+    "id": "bam",
+    "image": "https://flagsapi.com/BA/flat/64.png",
+    "name": "波斯尼亞和黑塞哥維那可兌換馬克",
+    "symbol": "BAM"
+  },
+  {
+    "id": "bbd",
+    "image": "https://flagsapi.com/BB/flat/64.png",
+    "name": "巴巴多斯元",
+    "symbol": "BBD"
+  },
+  {
+    "id": "bdt",
+    "image": "https://flagsapi.com/BD/flat/64.png",
+    "name": "孟加拉塔卡",
+    "symbol": "BDT"
+  },
+  {
+    "id": "bgn",
+    "image": "https://flagsapi.com/BG/flat/64.png",
+    "name": "保加利亞列弗",
+    "symbol": "BGN"
+  },
+  {
+    "id": "bhd",
+    "image": "https://flagsapi.com/BH/flat/64.png",
+    "name": "巴林第納爾",
+    "symbol": "BHD"
+  },
+  {
+    "id": "bif",
+    "image": "https://flagsapi.com/BI/flat/64.png",
+    "name": "布隆迪法郎",
+    "symbol": "BIF"
+  },
+  {
+    "id": "bmd",
+    "image": "https://flagsapi.com/BM/flat/64.png",
+    "name": "百慕大元",
+    "symbol": "BMD"
+  },
+  {
+    "id": "bnd",
+    "image": "https://flagsapi.com/BN/flat/64.png",
+    "name": "汶萊元",
+    "symbol": "BND"
+  },
+  {
+    "id": "bob",
+    "image": "https://flagsapi.com/BO/flat/64.png",
+    "name": "玻利維亞玻利維亞諾",
+    "symbol": "BOB"
+  },
+  {
+    "id": "brl",
+    "image": "https://flagsapi.com/BR/flat/64.png",
+    "name": "巴西雷亞爾",
+    "symbol": "BRL"
+  },
+  {
+    "id": "bsd",
+    "image": "https://flagsapi.com/BS/flat/64.png",
+    "name": "巴哈馬元",
+    "symbol": "BSD"
+  },
+  {
+    "id": "btn",
+    "image": "https://flagsapi.com/BT/flat/64.png",
+    "name": "不丹努爾特魯姆",
+    "symbol": "BTN"
+  },
+  {
+    "id": "bwp",
+    "image": "https://flagsapi.com/BW/flat/64.png",
+    "name": "博茨瓦納普拉",
+    "symbol": "BWP"
+  },
+  {
+    "id": "byn",
+    "image": "https://flagsapi.com/BY/flat/64.png",
+    "name": "白俄羅斯盧布",
+    "symbol": "BYN"
+  },
+  {
+    "id": "bzd",
+    "image": "https://flagsapi.com/BZ/flat/64.png",
+    "name": "伯利茲元",
+    "symbol": "BZD"
+  },
+  {
+    "id": "cad",
+    "image": "https://flagsapi.com/CA/flat/64.png",
+    "name": "加拿大元",
+    "symbol": "CAD"
+  },
+  {
+    "id": "cdf",
+    "image": "https://flagsapi.com/CD/flat/64.png",
+    "name": "剛果法郎",
+    "symbol": "CDF"
+  },
+  {
+    "id": "chf",
+    "image": "https://flagsapi.com/CH/flat/64.png",
+    "name": "瑞士法郎",
+    "symbol": "CHF"
+  },
+  {
+    "id": "clp",
+    "image": "https://flagsapi.com/CL/flat/64.png",
+    "name": "智利比索",
+    "symbol": "CLP"
+  },
+  {
+    "id": "cny",
+    "image": "https://flagsapi.com/CN/flat/64.png",
+    "name": "人民幣",
+    "symbol": "CNY"
+  },
+  {
+    "id": "cop",
+    "image": "https://flagsapi.com/CO/flat/64.png",
+    "name": "Colombian Peso",
+    "symbol": "COP"
+  },
+  {
+    "id": "crc",
+    "image": "https://flagsapi.com/CR/flat/64.png",
+    "name": "Costa Rican Colón",
+    "symbol": "CRC"
+  },
+  {
+    "id": "cup",
+    "image": "https://flagsapi.com/CU/flat/64.png",
+    "name": "Cuban Peso",
+    "symbol": "CUP"
+  },
+  {
+    "id": "cve",
+    "image": "https://flagsapi.com/CV/flat/64.png",
+    "name": "Cape Verdean Escudo",
+    "symbol": "CVE"
+  },
+  {
+    "id": "czk",
+    "image": "https://flagsapi.com/CZ/flat/64.png",
+    "name": "Czech Koruna",
+    "symbol": "CZK"
+  },
+  {
+    "id": "djf",
+    "image": "https://flagsapi.com/DJ/flat/64.png",
+    "name": "Djiboutian Franc",
+    "symbol": "DJF"
+  },
+  {
+    "id": "dkk",
+    "image": "https://flagsapi.com/DK/flat/64.png",
+    "name": "Danish Krone",
+    "symbol": "DKK"
+  },
+  {
+    "id": "dop",
+    "image": "https://flagsapi.com/DO/flat/64.png",
+    "name": "Dominican Peso",
+    "symbol": "DOP"
+  },
+  {
+    "id": "dzd",
+    "image": "https://flagsapi.com/DZ/flat/64.png",
+    "name": "Algerian Dinar",
+    "symbol": "DZD"
+  },
+  {
+    "id": "egp",
+    "image": "https://flagsapi.com/EG/flat/64.png",
+    "name": "Egyptian Pound",
+    "symbol": "EGP"
+  },
+  {
+    "id": "ern",
+    "image": "https://flagsapi.com/ER/flat/64.png",
+    "name": "Eritrean Nakfa",
+    "symbol": "ERN"
+  },
+  {
+    "id": "etb",
+    "image": "https://flagsapi.com/ET/flat/64.png",
+    "name": "Ethiopian Birr",
+    "symbol": "ETB"
+  },
+  {
+    "id": "eur",
+    "image": "https://flagsapi.com/EU/flat/64.png",
+    "name": "Euro",
+    "symbol": "EUR"
+  },
+  {
+    "id": "fjd",
+    "image": "https://flagsapi.com/FJ/flat/64.png",
+    "name": "Fijian Dollar",
+    "symbol": "FJD"
+  },
+  {
+    "id": "fkp",
+    "image": "https://flagsapi.com/FK/flat/64.png",
+    "name": "Falkland Islands Pound",
+    "symbol": "FKP"
+  },
+  {
+    "id": "fok",
+    "image": "https://flagsapi.com/FO/flat/64.png",
+    "name": "Faroese Króna",
+    "symbol": "FOK"
+  },
+  {
+    "id": "gbp",
+    "image": "https://flagsapi.com/GB/flat/64.png",
+    "name": "British Pound Sterling",
+    "symbol": "GBP"
+  },
+  {
+    "id": "gel",
+    "image": "https://flagsapi.com/GE/flat/64.png",
+    "name": "Georgian Lari",
+    "symbol": "GEL"
+  },
+  {
+    "id": "ggp",
+    "image": "https://flagsapi.com/GG/flat/64.png",
+    "name": "Guernsey Pound",
+    "symbol": "GGP"
+  },
+  {
+    "id": "ghs",
+    "image": "https://flagsapi.com/GH/flat/64.png",
+    "name": "Ghanaian Cedi",
+    "symbol": "GHS"
+  },
+  {
+    "id": "gip",
+    "image": "https://flagsapi.com/GI/flat/64.png",
+    "name": "Gibraltar Pound",
+    "symbol": "GIP"
+  },
+  {
+    "id": "gmd",
+    "image": "https://flagsapi.com/GM/flat/64.png",
+    "name": "Gambian Dalasi",
+    "symbol": "GMD"
+  },
+  {
+    "id": "gnf",
+    "image": "https://flagsapi.com/GN/flat/64.png",
+    "name": "Guinean Franc",
+    "symbol": "GNF"
+  },
+  {
+    "id": "gtq",
+    "image": "https://flagsapi.com/GT/flat/64.png",
+    "name": "Guatemalan Quetzal",
+    "symbol": "GTQ"
+  },
+  {
+    "id": "gyd",
+    "image": "https://flagsapi.com/GY/flat/64.png",
+    "name": "Guyanaese Dollar",
+    "symbol": "GYD"
+  },
+  {
+    "id": "hkd",
+    "image": "https://flagsapi.com/HK/flat/64.png",
+    "name": "Hong Kong Dollar",
+    "symbol": "HKD"
+  },
+  {
+    "id": "hnl",
+    "image": "https://flagsapi.com/HN/flat/64.png",
+    "name": "Honduran Lempira",
+    "symbol": "HNL"
+  },
+  {
+    "id": "hrk",
+    "image": "https://flagsapi.com/HR/flat/64.png",
+    "name": "Croatian Kuna",
+    "symbol": "HRK"
+  },
+  {
+    "id": "htg",
+    "image": "https://flagsapi.com/HT/flat/64.png",
+    "name": "Haitian Gourde",
+    "symbol": "HTG"
+  },
+  {
+    "id": "huf",
+    "image": "https://flagsapi.com/HU/flat/64.png",
+    "name": "Hungarian Forint",
+    "symbol": "HUF"
+  },
+  {
+    "id": "idr",
+    "image": "https://flagsapi.com/ID/flat/64.png",
+    "name": "Indonesian Rupiah",
+    "symbol": "IDR"
+  },
+  {
+    "id": "ils",
+    "image": "https://flagsapi.com/IL/flat/64.png",
+    "name": "Israeli New Shekel",
+    "symbol": "ILS"
+  },
+  {
+    "id": "imp",
+    "image": "https://flagsapi.com/IM/flat/64.png",
+    "name": "Manx Pound",
+    "symbol": "IMP"
+  },
+  {
+    "id": "inr",
+    "image": "https://flagsapi.com/IN/flat/64.png",
+    "name": "Indian Rupee",
+    "symbol": "INR"
+  },
+  {
+    "id": "iqd",
+    "image": "https://flagsapi.com/IQ/flat/64.png",
+    "name": "Iraqi Dinar",
+    "symbol": "IQD"
+  },
+  {
+    "id": "irr",
+    "image": "https://flagsapi.com/IR/flat/64.png",
+    "name": "Iranian Rial",
+    "symbol": "IRR"
+  },
+  {
+    "id": "isk",
+    "image": "https://flagsapi.com/IS/flat/64.png",
+    "name": "Icelandic Króna",
+    "symbol": "ISK"
+  },
+  {
+    "id": "jep",
+    "image": "https://flagsapi.com/JE/flat/64.png",
+    "name": "Jersey Pound",
+    "symbol": "JEP"
+  },
+  {
+    "id": "jod",
+    "image": "",
+    "name": "Jordanian Dinar",
+    "symbol": "JOD"
+  },
+  {
+    "id": "jpy",
+    "image": "https://flagsapi.com/JP/flat/64.png",
+    "name": "Japanese Yen",
+    "symbol": "JPY"
+  },
+  {
+    "id": "krw",
+    "image": "https://flagsapi.com/KR/flat/64.png",
+    "name": "South Korean Won",
+    "symbol": "KRW"
+  },
+  {
+    "id": "jod",
+    "image": "https://flagsapi.com/JO/flat/64.png",
+    "name": "Jordanian Dinar",
+    "symbol": "JOD"
+  },
+  {
+    "id": "jpy",
+    "image": "https://flagsapi.com/JP/flat/64.png",
+    "name": "Japanese Yen",
+    "symbol": "JPY"
+  },
+  {
+    "id": "kes",
+    "image": "https://flagsapi.com/KE/flat/64.png",
+    "name": "Kenyan Shilling",
+    "symbol": "KES"
+  },
+  {
+    "id": "kgs",
+    "image": "https://flagsapi.com/KG/flat/64.png",
+    "name": "Kyrgyzstani Som",
+    "symbol": "KGS"
+  },
+  {
+    "id": "khr",
+    "image": "https://flagsapi.com/KH/flat/64.png",
+    "name": "Cambodian Riel",
+    "symbol": "KHR"
+  },
+  {
+    "id": "kid",
+    "image": "https://flagsapi.com/KI/flat/64.png",
+    "name": "Kiribati Dollar",
+    "symbol": "KID"
+  },
+  {
+    "id": "kmf",
+    "image": "https://flagsapi.com/KM/flat/64.png",
+    "name": "Comorian Franc",
+    "symbol": "KMF"
+  },
+  {
+    "id": "krw",
+    "image": "https://flagsapi.com/KR/flat/64.png",
+    "name": "South Korean Won",
+    "symbol": "KRW"
+  },
+  {
+    "id": "kwd",
+    "image": "https://flagsapi.com/KW/flat/64.png",
+    "name": "Kuwaiti Dinar",
+    "symbol": "KWD"
+  },
+  {
+    "id": "kyd",
+    "image": "https://flagsapi.com/KY/flat/64.png",
+    "name": "Cayman Islands Dollar",
+    "symbol": "KYD"
+  },
+  {
+    "id": "kzt",
+    "image": "https://flagsapi.com/KZ/flat/64.png",
+    "name": "Kazakhstani Tenge",
+    "symbol": "KZT"
+  },
+  {
+    "id": "lak",
+    "image": "https://flagsapi.com/LA/flat/64.png",
+    "name": "Laotian Kip",
+    "symbol": "LAK"
+  },
+  {
+    "id": "lbp",
+    "image": "https://flagsapi.com/LB/flat/64.png",
+    "name": "Lebanese Pound",
+    "symbol": "LBP"
+  },
+  {
+    "id": "lkr",
+    "image": "https://flagsapi.com/LK/flat/64.png",
+    "name": "Sri Lankan Rupee",
+    "symbol": "LKR"
+  },
+  {
+    "id": "lrd",
+    "image": "https://flagsapi.com/LR/flat/64.png",
+    "name": "Liberian Dollar",
+    "symbol": "LRD"
+  },
+  {
+    "id": "lsl",
+    "image": "https://flagsapi.com/LS/flat/64.png",
+    "name": "Lesotho Loti",
+    "symbol": "LSL"
+  },
+  {
+    "id": "lyd",
+    "image": "https://flagsapi.com/LY/flat/64.png",
+    "name": "Libyan Dinar",
+    "symbol": "LYD"
+  },
+  {
+    "id": "mad",
+    "image": "https://flagsapi.com/MA/flat/64.png",
+    "name": "Moroccan Dirham",
+    "symbol": "MAD"
+  },
+  {
+    "id": "mdl",
+    "image": "https://flagsapi.com/MD/flat/64.png",
+    "name": "Moldovan Leu",
+    "symbol": "MDL"
+  },
+  {
+    "id": "mga",
+    "image": "https://flagsapi.com/MG/flat/64.png",
+    "name": "Malagasy Ariary",
+    "symbol": "MGA"
+  },
+  {
+    "id": "mkd",
+    "image": "https://flagsapi.com/MK/flat/64.png",
+    "name": "Macedonian Denar",
+    "symbol": "MKD"
+  },
+  {
+    "id": "mmk",
+    "image": "https://flagsapi.com/MM/flat/64.png",
+    "name": "Myanmar Kyat",
+    "symbol": "MMK"
+  },
+  {
+    "id": "mnt",
+    "image": "https://flagsapi.com/MN/flat/64.png",
+    "name": "Mongolian Tugrik",
+    "symbol": "MNT"
+  },
+  {
+    "id": "mop",
+    "image": "https://flagsapi.com/MO/flat/64.png",
+    "name": "Macanese Pataca",
+    "symbol": "MOP"
+  },
+  {
+    "id": "mru",
+    "image": "https://flagsapi.com/MR/flat/64.png",
+    "name": "Mauritanian Ouguiya",
+    "symbol": "MRU"
+  },
+  {
+    "id": "mur",
+    "image": "https://flagsapi.com/MU/flat/64.png",
+    "name": "Mauritian Rupee",
+    "symbol": "MUR"
+  },
+  {
+    "id": "mvr",
+    "image": "https://flagsapi.com/MV/flat/64.png",
+    "name": "Maldivian Rufiyaa",
+    "symbol": "MVR"
+  },
+  {
+    "id": "mwk",
+    "image": "https://flagsapi.com/MW/flat/64.png",
+    "name": "Malawian Kwacha",
+    "symbol": "MWK"
+  },
+  {
+    "id": "mxn",
+    "image": "https://flagsapi.com/MX/flat/64.png",
+    "name": "Mexican Peso",
+    "symbol": "MXN"
+  },
+  {
+    "id": "myr",
+    "image": "https://flagsapi.com/MY/flat/64.png",
+    "name": "Malaysian Ringgit",
+    "symbol": "MYR"
+  },
+  {
+    "id": "mzn",
+    "image": "https://flagsapi.com/MZ/flat/64.png",
+    "name": "Mozambican Metical",
+    "symbol": "MZN"
+  },
+  {
+    "id": "nad",
+    "image": "https://flagsapi.com/NA/flat/64.png",
+    "name": "Namibian Dollar",
+    "symbol": "NAD"
+  },
+  {
+    "id": "ngn",
+    "image": "https://flagsapi.com/NG/flat/64.png",
+    "name": "Nigerian Naira",
+    "symbol": "NGN"
+  },
+  {
+    "id": "nio",
+    "image": "https://flagsapi.com/NI/flat/64.png",
+    "name": "Nicaraguan Córdoba",
+    "symbol": "NIO"
+  },
+  {
+    "id": "nok",
+    "image": "https://flagsapi.com/NO/flat/64.png",
+    "name": "Norwegian Krone",
+    "symbol": "NOK"
+  },
+  {
+    "id": "npr",
+    "image": "https://flagsapi.com/NP/flat/64.png",
+    "name": "Nepalese Rupee",
+    "symbol": "NPR"
+  },
+  {
+    "id": "nzd",
+    "image": "https://flagsapi.com/NZ/flat/64.png",
+    "name": "New Zealand Dollar",
+    "symbol": "NZD"
+  },
+  {
+    "id": "omr",
+    "image": "https://flagsapi.com/OM/flat/64.png",
+    "name": "Omani Rial",
+    "symbol": "OMR"
+  },
+  {
+    "id": "pab",
+    "image": "https://flagsapi.com/PA/flat/64.png",
+    "name": "Panamanian Balboa",
+    "symbol": "PAB"
+  },
+  {
+    "id": "pen",
+    "image": "https://flagsapi.com/PE/flat/64.png",
+    "name": "Peruvian Nuevo Sol",
+    "symbol": "PEN"
+  },
+  {
+    "id": "pgk",
+    "image": "https://flagsapi.com/PG/flat/64.png",
+    "name": "Papua New Guinean Kina",
+    "symbol": "PGK"
+  },
+  {
+    "id": "php",
+    "image": "https://flagsapi.com/PH/flat/64.png",
+    "name": "Philippine Peso",
+    "symbol": "PHP"
+  },
+  {
+    "id": "jod",
+    "image": "https://flagsapi.com/JO/flat/64.png",
+    "name": "Jordanian Dinar",
+    "symbol": "JOD"
+  },
+  {
+    "id": "jpy",
+    "image": "https://flagsapi.com/JP/flat/64.png",
+    "name": "Japanese Yen",
+    "symbol": "JPY"
+  },
+  {
+    "id": "kes",
+    "image": "https://flagsapi.com/KE/flat/64.png",
+    "name": "Kenyan Shilling",
+    "symbol": "KES"
+  },
+  {
+    "id": "kgs",
+    "image": "https://flagsapi.com/KG/flat/64.png",
+    "name": "Kyrgyzstani Som",
+    "symbol": "KGS"
+  },
+  {
+    "id": "khr",
+    "image": "https://flagsapi.com/KH/flat/64.png",
+    "name": "Cambodian Riel",
+    "symbol": "KHR"
+  },
+  {
+    "id": "kid",
+    "image": "https://flagsapi.com/KI/flat/64.png",
+    "name": "Kiribati Dollar",
+    "symbol": "KID"
+  },
+  {
+    "id": "kmf",
+    "image": "https://flagsapi.com/KM/flat/64.png",
+    "name": "Comorian Franc",
+    "symbol": "KMF"
+  },
+  {
+    "id": "krw",
+    "image": "https://flagsapi.com/KR/flat/64.png",
+    "name": "South Korean Won",
+    "symbol": "KRW"
+  },
+  {
+    "id": "kwd",
+    "image": "https://flagsapi.com/KW/flat/64.png",
+    "name": "Kuwaiti Dinar",
+    "symbol": "KWD"
+  },
+  {
+    "id": "kyd",
+    "image": "https://flagsapi.com/KY/flat/64.png",
+    "name": "Cayman Islands Dollar",
+    "symbol": "KYD"
+  },
+  {
+    "id": "kzt",
+    "image": "https://flagsapi.com/KZ/flat/64.png",
+    "name": "Kazakhstani Tenge",
+    "symbol": "KZT"
+  },
+  {
+    "id": "lak",
+    "image": "https://flagsapi.com/LA/flat/64.png",
+    "name": "Laotian Kip",
+    "symbol": "LAK"
+  },
+  {
+    "id": "lbp",
+    "image": "https://flagsapi.com/LB/flat/64.png",
+    "name": "Lebanese Pound",
+    "symbol": "LBP"
+  },
+  {
+    "id": "lkr",
+    "image": "https://flagsapi.com/LK/flat/64.png",
+    "name": "Sri Lankan Rupee",
+    "symbol": "LKR"
+  },
+  {
+    "id": "lrd",
+    "image": "https://flagsapi.com/LR/flat/64.png",
+    "name": "Liberian Dollar",
+    "symbol": "LRD"
+  },
+  {
+    "id": "lsl",
+    "image": "https://flagsapi.com/LS/flat/64.png",
+    "name": "Lesotho Loti",
+    "symbol": "LSL"
+  },
+  {
+    "id": "lyd",
+    "image": "https://flagsapi.com/LY/flat/64.png",
+    "name": "Libyan Dinar",
+    "symbol": "LYD"
+  },
+  {
+    "id": "mad",
+    "image": "https://flagsapi.com/MA/flat/64.png",
+    "name": "Moroccan Dirham",
+    "symbol": "MAD"
+  },
+  {
+    "id": "mdl",
+    "image": "https://flagsapi.com/MD/flat/64.png",
+    "name": "Moldovan Leu",
+    "symbol": "MDL"
+  },
+  {
+    "id": "mga",
+    "image": "https://flagsapi.com/MG/flat/64.png",
+    "name": "Malagasy Ariary",
+    "symbol": "MGA"
+  },
+  {
+    "id": "mkd",
+    "image": "https://flagsapi.com/MK/flat/64.png",
+    "name": "Macedonian Denar",
+    "symbol": "MKD"
+  },
+  {
+    "id": "mmk",
+    "image": "https://flagsapi.com/MM/flat/64.png",
+    "name": "Myanmar Kyat",
+    "symbol": "MMK"
+  },
+  {
+    "id": "mnt",
+    "image": "https://flagsapi.com/MN/flat/64.png",
+    "name": "Mongolian Tugrik",
+    "symbol": "MNT"
+  },
+  {
+    "id": "mop",
+    "image": "https://flagsapi.com/MO/flat/64.png",
+    "name": "Macanese Pataca",
+    "symbol": "MOP"
+  },
+  {
+    "id": "mru",
+    "image": "https://flagsapi.com/MR/flat/64.png",
+    "name": "Mauritanian Ouguiya",
+    "symbol": "MRU"
+  },
+  {
+    "id": "mur",
+    "image": "https://flagsapi.com/MU/flat/64.png",
+    "name": "Mauritian Rupee",
+    "symbol": "MUR"
+  },
+  {
+    "id": "mvr",
+    "image": "https://flagsapi.com/MV/flat/64.png",
+    "name": "Maldivian Rufiyaa",
+    "symbol": "MVR"
+  },
+  {
+    "id": "mwk",
+    "image": "https://flagsapi.com/MW/flat/64.png",
+    "name": "Malawian Kwacha",
+    "symbol": "MWK"
+  },
+  {
+    "id": "mxn",
+    "image": "https://flagsapi.com/MX/flat/64.png",
+    "name": "Mexican Peso",
+    "symbol": "MXN"
+  },
+  {
+    "id": "myr",
+    "image": "https://flagsapi.com/MY/flat/64.png",
+    "name": "Malaysian Ringgit",
+    "symbol": "MYR"
+  },
+  {
+    "id": "mzn",
+    "image": "https://flagsapi.com/MZ/flat/64.png",
+    "name": "Mozambican Metical",
+    "symbol": "MZN"
+  },
+  {
+    "id": "nad",
+    "image": "https://flagsapi.com/NA/flat/64.png",
+    "name": "Namibian Dollar",
+    "symbol": "NAD"
+  },
+  {
+    "id": "ngn",
+    "image": "https://flagsapi.com/NG/flat/64.png",
+    "name": "Nigerian Naira",
+    "symbol": "NGN"
+  },
+  {
+    "id": "nio",
+    "image": "https://flagsapi.com/NI/flat/64.png",
+    "name": "Nicaraguan Córdoba",
+    "symbol": "NIO"
+  },
+  {
+    "id": "nok",
+    "image": "https://flagsapi.com/NO/flat/64.png",
+    "name": "Norwegian Krone",
+    "symbol": "NOK"
+  },
+  {
+    "id": "npr",
+    "image": "https://flagsapi.com/NP/flat/64.png",
+    "name": "Nepalese Rupee",
+    "symbol": "NPR"
+  },
+  {
+    "id": "nzd",
+    "image": "https://flagsapi.com/NZ/flat/64.png",
+    "name": "New Zealand Dollar",
+    "symbol": "NZD"
+  },
+  {
+    "id": "omr",
+    "image": "https://flagsapi.com/OM/flat/64.png",
+    "name": "Omani Rial",
+    "symbol": "OMR"
+  },
+  {
+    "id": "pab",
+    "image": "https://flagsapi.com/PA/flat/64.png",
+    "name": "Panamanian Balboa",
+    "symbol": "PAB"
+  },
+  {
+    "id": "pen",
+    "image": "https://flagsapi.com/PE/flat/64.png",
+    "name": "Peruvian Nuevo Sol",
+    "symbol": "PEN"
+  },
+  {
+    "id": "pgk",
+    "image": "https://flagsapi.com/PG/flat/64.png",
+    "name": "Papua New Guinean Kina",
+    "symbol": "PGK"
+  },
+  {
+    "id": "php",
+    "image": "https://flagsapi.com/PH/flat/64.png",
+    "name": "Philippine Peso",
+    "symbol": "PHP"
+  },
+  {
+    "id": "pkr",
+    "image": "https://flagsapi.com/PK/flat/64.png",
+    "name": "Pakistani Rupee",
+    "symbol": "PKR"
+  },
+  {
+    "id": "pln",
+    "image": "https://flagsapi.com/PL/flat/64.png",
+    "name": "Polish Zloty",
+    "symbol": "PLN"
+  },
+  {
+    "id": "pyg",
+    "image": "https://flagsapi.com/PY/flat/64.png",
+    "name": "Paraguayan Guarani",
+    "symbol": "PYG"
+  },
+  {
+    "id": "qar",
+    "image": "https://flagsapi.com/QA/flat/64.png",
+    "name": "Qatari Rial",
+    "symbol": "QAR"
+  },
+  {
+    "id": "ron",
+    "image": "https://flagsapi.com/RO/flat/64.png",
+    "name": "Romanian Leu",
+    "symbol": "RON"
+  },
+  {
+    "id": "rsd",
+    "image": "https://flagsapi.com/RS/flat/64.png",
+    "name": "Serbian Dinar",
+    "symbol": "RSD"
+  },
+  {
+    "id": "rub",
+    "image": "https://flagsapi.com/RU/flat/64.png",
+    "name": "Russian Ruble",
+    "symbol": "RUB"
+  },
+  {
+    "id": "rwf",
+    "image": "https://flagsapi.com/RW/flat/64.png",
+    "name": "Rwandan Franc",
+    "symbol": "RWF"
+  },
+  {
+    "id": "sar",
+    "image": "https://flagsapi.com/SA/flat/64.png",
+    "name": "Saudi Riyal",
+    "symbol": "SAR"
+  },
+  {
+    "id": "sbd",
+    "image": "https://flagsapi.com/SB/flat/64.png",
+    "name": "Solomon Islands Dollar",
+    "symbol": "SBD"
+  },
+  {
+    "id": "scr",
+    "image": "https://flagsapi.com/SC/flat/64.png",
+    "name": "Seychellois Rupee",
+    "symbol": "SCR"
+  },
+  {
+    "id": "sdg",
+    "image": "https://flagsapi.com/SD/flat/64.png",
+    "name": "Sudanese Pound",
+    "symbol": "SDG"
+  },
+  {
+    "id": "sek",
+    "image": "https://flagsapi.com/SE/flat/64.png",
+    "name": "Swedish Krona",
+    "symbol": "SEK"
+  },
+  {
+    "id": "sgd",
+    "image": "https://flagsapi.com/SG/flat/64.png",
+    "name": "Singapore Dollar",
+    "symbol": "SGD"
+  },
+  {
+    "id": "shp",
+    "image": "https://flagsapi.com/SH/flat/64.png",
+    "name": "Saint Helena Pound",
+    "symbol": "SHP"
+  },
+  {
+    "id": "sle",
+    "image": "https://flagsapi.com/SL/flat/64.png",
+    "name": "Sierra Leonean Leone",
+    "symbol": "SLE"
+  },
+  {
+    "id": "sll",
+    "image": "https://flagsapi.com/SL/flat/64.png",
+    "name": "Sierra Leonean Leone",
+    "symbol": "SLL"
+  },
+  {
+    "id": "sos",
+    "image": "https://flagsapi.com/SO/flat/64.png",
+    "name": "Somali Shilling",
+    "symbol": "SOS"
+  },
+  {
+    "id": "srd",
+    "image": "https://flagsapi.com/SR/flat/64.png",
+    "name": "Surinamese Dollar",
+    "symbol": "SRD"
+  },
+  {
+    "id": "ssp",
+    "image": "https://flagsapi.com/SS/flat/64.png",
+    "name": "South Sudanese Pound",
+    "symbol": "SSP"
+  },
+  {
+    "id": "stn",
+    "image": "https://flagsapi.com/ST/flat/64.png",
+    "name": "São Tomé and Príncipe Dobra",
+    "symbol": "STN"
+  },
+  {
+    "id": "syp",
+    "image": "https://flagsapi.com/SY/flat/64.png",
+    "name": "Syrian Pound",
+    "symbol": "SYP"
+  },
+  {
+    "id": "szl",
+    "image": "https://flagsapi.com/SZ/flat/64.png",
+    "name": "Swazi Lilangeni",
+    "symbol": "SZL"
+  },
+  {
+    "id": "thb",
+    "image": "https://flagsapi.com/TH/flat/64.png",
+    "name": "Thai Baht",
+    "symbol": "THB"
+  },
+  {
+    "id": "tjs",
+    "image": "https://flagsapi.com/TJ/flat/64.png",
+    "name": "Tajikistani Somoni",
+    "symbol": "TJS"
+  },
+  {
+    "id": "tmt",
+    "image": "https://flagsapi.com/TM/flat/64.png",
+    "name": "Turkmenistani Manat",
+    "symbol": "TMT"
+  },
+  {
+    "id": "tnd",
+    "image": "https://flagsapi.com/TN/flat/64.png",
+    "name": "Tunisian Dinar",
+    "symbol": "TND"
+  },
+  {
+    "id": "top",
+    "image": "https://flagsapi.com/TO/flat/64.png",
+    "name": "Tongan Pa'anga",
+    "symbol": "TOP"
+  },
+  {
+    "id": "try",
+    "image": "https://flagsapi.com/TR/flat/64.png",
+    "name": "Turkish Lira",
+    "symbol": "TRY"
+  },
+  {
+    "id": "ttd",
+    "image": "https://flagsapi.com/TT/flat/64.png",
+    "name": "Trinidad and Tobago Dollar",
+    "symbol": "TTD"
+  },
+  {
+    "id": "tvd",
+    "image": "https://flagsapi.com/TV/flat/64.png",
+    "name": "Tuvalu Dollar",
+    "symbol": "TVD"
+  },
+  {
+    "id": "tzs",
+    "image": "https://flagsapi.com/TZ/flat/64.png",
+    "name": "Tanzanian Shilling",
+    "symbol": "TZS"
+  },
+  {
+    "id": "uah",
+    "image": "https://flagsapi.com/UA/flat/64.png",
+    "name": "Ukrainian Hryvnia",
+    "symbol": "UAH"
+  },
+  {
+    "id": "ugx",
+    "image": "https://flagsapi.com/UG/flat/64.png",
+    "name": "Ugandan Shilling",
+    "symbol": "UGX"
+  },
+  {
+    "id": "uyu",
+    "image": "https://flagsapi.com/UY/flat/64.png",
+    "name": "Uruguayan Peso",
+    "symbol": "UYU"
+  },
+  {
+    "id": "uzs",
+    "image": "https://flagsapi.com/UZ/flat/64.png",
+    "name": "Uzbekistan Som",
+    "symbol": "UZS"
+  },
+  {
+    "id": "ves",
+    "image": "https://flagsapi.com/VE/flat/64.png",
+    "name": "Venezuelan Bolívar Soberano",
+    "symbol": "VES"
+  },
+  {
+    "id": "vnd",
+    "image": "https://flagsapi.com/VN/flat/64.png",
+    "name": "Vietnamese Dong",
+    "symbol": "VND"
+  },
+  {
+    "id": "vuv",
+    "image": "https://flagsapi.com/VU/flat/64.png",
+    "name": "Vanuatu Vatu",
+    "symbol": "VUV"
+  },
+  {
+    "id": "wst",
+    "image": "https://flagsapi.com/WS/flat/64.png",
+    "name": "Samoan Tala",
+    "symbol": "WST"
+  },
+  {
+    "id": "xaf",
+    "image": "https://flagsapi.com/CF/flat/64.png",
+    "name": "Central African CFA Franc",
+    "symbol": "XAF"
+  },
+  {
+    "id": "xcd",
+    "image": "https://flagsapi.com/XC/flat/64.png",
+    "name": "East Caribbean Dollar",
+    "symbol": "XCD"
+  },
+  {
+    "id": "xdr",
+    "image": "https://flagsapi.com/XD/flat/64.png",
+    "name": "Special Drawing Rights",
+    "symbol": "XDR"
+  },
+  {
+    "id": "xof",
+    "image": "https://flagsapi.com/XO/flat/64.png",
+    "name": "West African CFA Franc",
+    "symbol": "XOF"
+  },
+  {
+    "id": "xpf",
+    "image": "https://flagsapi.com/XP/flat/64.png",
+    "name": "CFP Franc",
+    "symbol": "XPF"
+  },
+  {
+    "id": "yer",
+    "image": "https://flagsapi.com/YE/flat/64.png",
+    "name": "Yemeni Rial",
+    "symbol": "YER"
+  },
+  {
+    "id": "zar",
+    "image": "https://flagsapi.com/ZA/flat/64.png",
+    "name": "South African Rand",
+    "symbol": "ZAR"
+  },
+  {
+    "id": "zmw",
+    "image": "https://flagsapi.com/ZM/flat/64.png",
+    "name": "Zambian Kwacha",
+    "symbol": "ZMW"
+  },
+  {
+    "id": "zwl",
+    "image": "https://flagsapi.com/ZW/flat/64.png",
+    "name": "Zimbabwean Dollar",
+    "symbol": "ZWL"
+  }
+]
