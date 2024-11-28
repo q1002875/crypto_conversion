@@ -263,6 +263,45 @@ class _CalculatorPageState extends State<CalculatorPage> {
     }
   }
 
+  String formatCurrencyRate() {
+    double rate = _coin1Id.price / _coin2Id.price;
+
+    // Handle extremely small rates using scientific notation
+    if (rate < 0.0001) {
+      // Use scientific notation conversion from previous method
+      String scientificNotation = rate.toStringAsExponential(6);
+      String formattedRate = _formatScientificToDecimal(scientificNotation);
+      return '1 ${_coin1Id.symbolData.coin.toUpperCase()} = $formattedRate ${_coin2Id.symbolData.coin.toUpperCase()}';
+    }
+
+    // Check for consecutive zeros
+    String rateString = rate.toStringAsFixed(8);
+    RegExp zeroRegex = RegExp(r'\.?0{3,}');
+
+    if (zeroRegex.hasMatch(rateString)) {
+      // Similar to small rate handling
+      String scientificNotation = rate.toStringAsExponential(6);
+      String formattedRate = _formatScientificToDecimal(scientificNotation);
+      return '1 ${_coin1Id.symbolData.coin.toUpperCase()} = $formattedRate ${_coin2Id.symbolData.coin.toUpperCase()}';
+    }
+
+    // Find appropriate decimal places for display
+    if (rateString.contains('.')) {
+      RegExp nonZeroRegex = RegExp(r'\.([1-9][0-9]*)');
+      var match = nonZeroRegex.firstMatch(rateString);
+
+      if (match != null) {
+        int decimalPlaces = match.group(1)!.length;
+        // Limit to max 4 decimal places for readability
+        decimalPlaces = decimalPlaces > 2 ? 2 : decimalPlaces;
+        return '1 ${_coin1Id.symbolData.coin.toUpperCase()} = ${rate.toStringAsFixed(decimalPlaces)} ${_coin2Id.symbolData.coin.toUpperCase()}';
+      }
+    }
+
+    // Default to 4 decimal places
+    return '1 ${_coin1Id.symbolData.coin.toUpperCase()} = ${rate.toStringAsFixed(2)} ${_coin2Id.symbolData.coin.toUpperCase()}';
+  }
+
   @override
   initState() {
     super.initState();
@@ -377,7 +416,7 @@ class _CalculatorPageState extends State<CalculatorPage> {
                   FittedBox(
                     fit: BoxFit.scaleDown,
                     child: Text(
-                      '1 ${_coin1Id.symbolData.coin.toUpperCase()} = ${(_coin1Id.price / _coin2Id.price).toStringAsFixed(4)} ${_coin2Id.symbolData.coin.toUpperCase()}',
+                      formatCurrencyRate(),
                       style: TextStyle(
                         color: Colors.grey[600],
                         fontSize: 15,
@@ -464,5 +503,25 @@ class _CalculatorPageState extends State<CalculatorPage> {
         ),
       ),
     );
+  }
+
+  // Reuse the scientific notation conversion method from previous example
+  String _formatScientificToDecimal(String scientificNotation) {
+    RegExp exp = RegExp(r'([\d.]+)e([+-])(\d+)');
+    Match? match = exp.firstMatch(scientificNotation);
+
+    if (match == null) return "0";
+
+    String baseNumber = match.group(1)!;
+    String sign = match.group(2)!;
+    int exponent = int.parse(match.group(3)!);
+
+    baseNumber = baseNumber.replaceAll('.', '');
+
+    int leadingZeros = sign == '-' ? exponent - 1 : 0;
+
+    String result = '0.${'0' * leadingZeros}$baseNumber';
+
+    return result;
   }
 }

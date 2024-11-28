@@ -9,6 +9,5 @@ export 'package:flutter/widgets.dart';
 export 'package:flutter_bloc/flutter_bloc.dart';
 // ignore: duplicate_export
 export 'package:http/http.dart';
-export 'package:http/http.dart';
 export 'package:shared_preferences/shared_preferences.dart';
 export 'package:shimmer/shimmer.dart';

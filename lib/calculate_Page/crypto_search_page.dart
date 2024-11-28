@@ -1,11 +1,11 @@
 import 'dart:async';
 
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:crypto_conversion/calculate_Page/cryptoListView.dart';
 import 'package:crypto_conversion/extension/common.dart';
 import 'package:crypto_conversion/extension/cryptoCache.dart';
+import 'package:crypto_conversion/extension/currencyData.dart';
+import 'package:crypto_conversion/extension/currencyFlagCacheManager.dart';
 
-import '../extension/ShimmerText.dart';
 import 'model/trickcrypto.dart';
 
 class CryptoSearchPage extends StatefulWidget {
@@ -101,7 +101,7 @@ class _CryptoSearchPageState extends State<CryptoSearchPage>
 class _MyListViewState extends State<MyListView> {
   final List<Trickcrypto> _dataList = [];
   final Set<String> _loadedIds = {}; // 追蹤已加載的項目
-  int _loadedCount = 40;
+  final int _loadedCount = 40;
   bool _isLoading = false;
   String _searchKeyword = '';
   final ScrollController _scrollController = ScrollController();
@@ -123,8 +123,14 @@ class _MyListViewState extends State<MyListView> {
             physics: const AlwaysScrollableScrollPhysics(),
             itemCount: filteredList.length + (_isLoading ? 1 : 0),
             itemBuilder: (context, index) {
+              final currency = CurrencyData.currencies[index];
+              final flagCache = CurrencyFlagCache();
+              final localFlagPath =
+                  flagCache.getLocalFlagPath(currency['name']);
+
               if (index < filteredList.length) {
-                return _buildCryptoItem(filteredList[index]);
+                return _buildCryptoItem(
+                    filteredList[index], localFlagPath, currency['image']);
               } else {
                 return const Padding(
                   padding: EdgeInsets.all(16.0),
@@ -162,26 +168,19 @@ class _MyListViewState extends State<MyListView> {
           CryptoCache.getCachedData(widget.data.hashCode.toString());
       if (cachedData != null && _dataList.isEmpty) {
         setState(() {
-          _dataList.addAll(cachedData.take(_loadedCount));
-          _loadedCount += 100;
+          _dataList.addAll(cachedData);
         });
         return;
       }
 
-      // 模擬網絡延遲
-      // await Future.delayed(const Duration(milliseconds: 500));
+      // 直接加載所有數據
+      final allItems =
+          widget.data.where((item) => !_loadedIds.contains(item.id)).toList();
 
-      final newItems = widget.data
-          .skip(_dataList.length)
-          .take(100)
-          .where((item) => !_loadedIds.contains(item.id))
-          .toList();
-
-      if (newItems.isNotEmpty) {
+      if (allItems.isNotEmpty) {
         setState(() {
-          _dataList.addAll(newItems);
-          _loadedIds.addAll(newItems.map((e) => e.id));
-          _loadedCount += 20;
+          _dataList.addAll(allItems);
+          _loadedIds.addAll(allItems.map((e) => e.id));
         });
 
         // 更新緩存
@@ -199,7 +198,8 @@ class _MyListViewState extends State<MyListView> {
     fetchData();
   }
 
-  Widget _buildCryptoItem(Trickcrypto data) {
+  Widget _buildCryptoItem(
+      Trickcrypto data, String? localPath, String imageurl) {
     return Card(
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       elevation: 2,
@@ -208,14 +208,9 @@ class _MyListViewState extends State<MyListView> {
         contentPadding: const EdgeInsets.all(16),
         leading: Hero(
           tag: 'crypto_${data.id}',
-          child: CachedNetworkImage(
-            imageUrl: data.image,
-            placeholder: (context, url) => const ShimmerBox(),
-            errorWidget: (context, url, error) =>
-                Image.asset('assets/cryptoIcon.png'),
-            width: 48,
-            height: 48,
-          ),
+          child: localPath != null
+              ? Image.file(File(localPath), width: 64, height: 64)
+              : Image.network(data.image, width: 64, height: 64),
         ),
         title: Text(
           data.name,

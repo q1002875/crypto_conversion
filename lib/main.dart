@@ -1,11 +1,16 @@
 import 'package:crypto_conversion/calculate_Page/bloc/calculate_bloc_bloc.dart';
 import 'package:crypto_conversion/calculate_Page/calculatePage.dart';
 import 'package:crypto_conversion/extension/common.dart';
+import 'package:crypto_conversion/extension/currencyFlagCacheManager.dart';
 
 import 'extension/cryptoCache.dart';
 
-void main() {
+Future<void> main() async {
   CryptoCache.clearCache();
+
+  final flagCache = CurrencyFlagCache();
+  await flagCache.preloadCurrencyFlags();
+
   runApp(const MyApp());
 }
 

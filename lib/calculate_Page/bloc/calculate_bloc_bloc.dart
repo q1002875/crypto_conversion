@@ -125,6 +125,10 @@ class CalculateBlocBloc extends Bloc<CalculateBlocEvent, CalculateBlocState> {
         SharedPreferencesHelper.setTrickcrypto('coinId1', _coin1Id.symbolData);
         SharedPreferencesHelper.setTrickcrypto('coinId2', _coin2Id.symbolData);
 
+        _output = "0";
+        _output2 = "0";
+        _num1 = 0.0;
+        _num2 = 0.0;
         emit(CalculateUpDownLoaded(
             symbolcase: [_coin1Id, _coin2Id], outputList: [_output, _output2]));
       }
@@ -327,6 +331,30 @@ class CalculateBlocBloc extends Bloc<CalculateBlocEvent, CalculateBlocState> {
     return result;
   }
 
+  // 辅助方法：将科学计数法转换为精确的小数形式
+  String _formatScientificToDecimal(String scientificNotation) {
+    // 解析科学计数法
+    RegExp exp = RegExp(r'([\d.]+)e([+-])(\d+)');
+    Match? match = exp.firstMatch(scientificNotation);
+
+    if (match == null) return "0";
+
+    String baseNumber = match.group(1)!;
+    String sign = match.group(2)!;
+    int exponent = int.parse(match.group(3)!);
+
+    // 移除基数中的小数点
+    baseNumber = baseNumber.replaceAll('.', '');
+
+    // 计算需要的前导零数量
+    int leadingZeros = sign == '-' ? exponent - 1 : 0;
+
+    // 构建最终的小数表示
+    String result = '0.${'0' * leadingZeros}$baseNumber';
+
+    return result;
+  }
+
   Operation _getOperation(String op) {
     switch (op) {
       case "+":
@@ -387,11 +415,26 @@ class CalculateBlocBloc extends Bloc<CalculateBlocEvent, CalculateBlocState> {
       double conversionRate = _coin1Id.price / _coin2Id.price;
       double convertedValue = currentValue * conversionRate;
 
-      // 将结果格式化为小数点后两位
-      _output2 = convertedValue.toStringAsFixed(2);
+      // 处理零值情况
+      if (convertedValue == 0) {
+        _output2 = "0";
+        return;
+      }
 
-      // 如果结果是 "0.00"，统一显示为 "0"
-      if (_output2 == "0.00") _output2 = "0";
+      // 对于非常小的数值
+      if (convertedValue < 0.01) {
+        // 使用科学计数法转换
+        String scientificNotation = convertedValue.toStringAsExponential(6);
+        // 如果使用科学计数法
+        if (convertedValue != 0) {
+          // 将科学计数法转换为小数形式
+          _output2 = _formatScientificToDecimal(scientificNotation);
+          return;
+        }
+      }
+
+      // 对于一般数值
+      _output2 = convertedValue.toStringAsFixed(2);
     } catch (e) {
       debugPrint('Error updating secondary display: $e');
       _output2 = "0";
