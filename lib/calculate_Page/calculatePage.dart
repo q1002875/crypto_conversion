@@ -111,6 +111,8 @@ class _CalculatorPageState extends State<CalculatorPage> {
   }
 
   Widget calculateView() {
+    const calerdercolor = Color.fromARGB(255, 54, 54, 54);
+    const numbercolor = Color.fromARGB(255, 101, 101, 101);
     return Container(
       // color: Colors.pink,
       child: Row(
@@ -121,29 +123,29 @@ class _CalculatorPageState extends State<CalculatorPage> {
             child: Table(
               children: [
                 TableRow(children: [
-                  buildButton("C", 1, Colors.black54),
-                  buildButton("⌫", 1, Colors.black54),
-                  buildIconButton("÷", 1, Colors.black54),
+                  buildButton("C", 1, calerdercolor),
+                  buildButton("⌫", 1, calerdercolor),
+                  buildIconButton("÷", 1, calerdercolor),
                 ]),
                 TableRow(children: [
-                  buildButton("7", 1, Colors.grey),
-                  buildButton("8", 1, Colors.grey),
-                  buildButton("9", 1, Colors.grey),
+                  buildButton("7", 1, numbercolor),
+                  buildButton("8", 1, numbercolor),
+                  buildButton("9", 1, numbercolor),
                 ]),
                 TableRow(children: [
-                  buildButton("4", 1, Colors.grey),
-                  buildButton("5", 1, Colors.grey),
-                  buildButton("6", 1, Colors.grey),
+                  buildButton("4", 1, numbercolor),
+                  buildButton("5", 1, numbercolor),
+                  buildButton("6", 1, numbercolor),
                 ]),
                 TableRow(children: [
-                  buildButton("1", 1, Colors.grey),
-                  buildButton("2", 1, Colors.grey),
-                  buildButton("3", 1, Colors.grey),
+                  buildButton("1", 1, numbercolor),
+                  buildButton("2", 1, numbercolor),
+                  buildButton("3", 1, numbercolor),
                 ]),
                 TableRow(children: [
-                  buildButton("0", 1, Colors.grey),
-                  buildButton(".", 1, Colors.grey),
-                  buildButton("00", 1, Colors.grey),
+                  buildButton("0", 1, numbercolor),
+                  buildButton(".", 1, numbercolor),
+                  buildButton("00", 1, numbercolor),
                 ]),
               ],
             ),
@@ -345,15 +347,21 @@ class _CalculatorPageState extends State<CalculatorPage> {
 
   Widget mainView(String output1, String output2) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 63, 58, 58).withOpacity(0.9),
+      backgroundColor: const Color.fromARGB(255, 38, 38, 38).withOpacity(1),
       body: SafeArea(
         child: Column(
           children: [
             Expanded(
               child: Column(
                 children: [
-                  const SizedBox(height: 6),
                   _buildCoinSection(true, _coin1Id, output1),
+                  const Padding(
+                    padding: EdgeInsets.symmetric(vertical: 8.0),
+                    child: Divider(
+                      color: Colors.white, // 设置白色线条
+                      thickness: 0.1, // 设置线条厚度
+                    ),
+                  ),
                   _buildCoinSection(false, _coin2Id, output2),
                 ],
               ),
@@ -440,19 +448,7 @@ class _CalculatorPageState extends State<CalculatorPage> {
       child: Container(
         margin: const EdgeInsets.symmetric(horizontal: 2, vertical: 1),
         padding:
-            const EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 32),
-        decoration: BoxDecoration(
-          color: const Color.fromARGB(255, 63, 58, 58).withOpacity(0.6),
-          borderRadius: BorderRadius.circular(12),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.grey.withOpacity(0.1),
-              spreadRadius: 1,
-              blurRadius: 5,
-              offset: const Offset(0, 3),
-            ),
-          ],
-        ),
+            const EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 16),
         child: Row(
           children: [
             Container(
