@@ -12,6 +12,30 @@
     "symbol": "USD"
   },
   {
+    "id": "krw",
+    "image": "https://flagsapi.com/KR/flat/64.png",
+    "name": "韓元",
+    "symbol": "KRW"
+  },
+  {
+    "id": "jpy",
+    "image": "https://flagsapi.com/JP/flat/64.png",
+    "name": "日圓",
+    "symbol": "JPY"
+  },
+  {
+    "id": "cny",
+    "image": "https://flagsapi.com/CN/flat/64.png",
+    "name": "人民幣",
+    "symbol": "CNY"
+  },
+  {
+    "id": "eur",
+    "image": "https://flagcdn.com/h120/eu.png",
+    "name": "歐元",
+    "symbol": "EUR"
+  },
+  {
     "id": "aed",
     "image": "https://flagsapi.com/AE/flat/64.png",
     "name": "阿聯酋迪拉姆",
@@ -186,12 +210,6 @@
     "symbol": "CLP"
   },
   {
-    "id": "cny",
-    "image": "https://flagsapi.com/CN/flat/64.png",
-    "name": "人民幣",
-    "symbol": "CNY"
-  },
-  {
     "id": "cop",
     "image": "https://flagsapi.com/CO/flat/64.png",
     "name": "哥倫比亞比索",
@@ -262,12 +280,6 @@
     "image": "https://flagsapi.com/ET/flat/64.png",
     "name": "衣索比亞比爾",
     "symbol": "ETB"
-  },
-  {
-    "id": "eur",
-    "image": "https://flagsapi.com/EU/flat/64.png",
-    "name": "歐元",
-    "symbol": "EUR"
   },
   {
     "id": "fjd",
@@ -432,12 +444,6 @@
     "symbol": "JOD"
   },
   {
-    "id": "jpy",
-    "image": "https://flagsapi.com/JP/flat/64.png",
-    "name": "日圓",
-    "symbol": "JPY"
-  },
-  {
     "id": "kes",
     "image": "https://flagsapi.com/KE/flat/64.png",
     "name": "肯亞先令",
@@ -460,12 +466,6 @@
     "image": "https://flagsapi.com/KM/flat/64.png",
     "name": "葛摩法郎",
     "symbol": "KMF"
-  },
-  {
-    "id": "krw",
-    "image": "https://flagsapi.com/KR/flat/64.png",
-    "name": "韓元",
-    "symbol": "KRW"
   },
   {
     "id": "kwd",

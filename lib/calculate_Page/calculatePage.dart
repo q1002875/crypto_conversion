@@ -422,7 +422,7 @@ class _CalculatorPageState extends State<CalculatorPage> {
           ),
           Expanded(
             child: Padding(
-              padding: const EdgeInsets.only(left: 12),
+              padding: const EdgeInsets.only(left: 8),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
