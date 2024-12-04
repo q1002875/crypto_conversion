@@ -1,7 +1,12 @@
 icons_launcher:
-  image_path: "assets/crypto_preview.png"
+  image_path: "assets/appiconbgalpha.png"
   platforms:
     android:
       enable: true
     ios:
       enable: true
+
+
+
+# 執行command
+# dart run icons_launcher:create

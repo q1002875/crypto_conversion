@@ -1,6 +1,6 @@
 flutter_native_splash:
   color: "#000000"  # 背景顏色 (十六進制格式)
-  image: assets/crypto_launch.png # 啟動圖片的路徑 (需放置在 assets 中)
+  image: assets/launchImage.png # 啟動圖片的路徑 (需放置在 assets 中)
   android: true # 啟用 Android 平台
   ios: true # 啟用 iOS 平台
   web: false # 如果需要 Web 平台，可設為 true
