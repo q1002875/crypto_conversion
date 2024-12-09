@@ -10,7 +10,7 @@ Future<void> main() async {
 
   final flagCache = CurrencyFlagCache();
   await flagCache.preloadCurrencyFlags();
-  await Future.delayed(const Duration(seconds: 2));
+  // await Future.delayed(const Duration(seconds: 1));
 
   runApp(const MyApp());
 }
